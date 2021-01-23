@@ -8,6 +8,7 @@ section {
   border: 1px solid rgb(17, 0, 255);
 }
 /*Временные стили_end*/
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -20,9 +21,6 @@ section {
   color: #2f80ed;
 }
 
-.content__margin {
-  margin: 100px 0 0;
-}
 
 .header {
   height: 100vh;
@@ -117,7 +115,7 @@ section {
 /* SECTION DESCRIPTION*/
 .description {
   width: 80%;
-  margin: auto;
+  margin: 100px auto;
 }
 
 .two-columns {
@@ -132,32 +130,3 @@ justify-content: space-between;
 .two-columns__main-text {
   width: 80%;
 }
-
-/*
-.two-columns {
-  display: flex;
-  width: 80%;
-  background-color: rgb(236, 95, 95);
-}
-
-.two-columns__brief {
-  width: 175px;
-  background-color: #fff;
-
-}
-
-.two-columns__title {
-  line-height: 1.2em;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.two-columns__main-text {
-  display: flex;
-  flex-direction: column;
-  align-content:
-  min-width: 784px;
-  width: 80%;
-  background-color: #555;
-}
-*/
