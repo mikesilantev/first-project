@@ -11,34 +11,63 @@ div {
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* Настройки */
+.link {
+  color: #2f80ed;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
- /* position: relative;*/
+  position: relative;
+  background: #f2f2f2;
+  border: 1px solid black;
 }
-/*Logo*/
+/*#1 Logo*/
+
 .logo {
   width: 183px;
   height: 32px;
-  /*position: absolute;*/
+  position: absolute;
 
 }
+
 .logo__header_place {
   margin: 30px 0 0 64px;
+  z-index: 2;
 }
-/*Logo__END*/
+
+/* #2 header__title*/
 
 .header__title {
-  width: 730px;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 .header__h1 {
+  width: 730px;
+  height: 64px;
+  margin-left: 64px;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
+  z-index: 2;
 }
 
-
+.header__subtitle {
+  position: absolute;
+  z-index: 2;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
 
 .header__link {
 
@@ -47,10 +76,25 @@ div {
   content: " \2192";
 }
 
+.header__main-illustration {
+  position: absolute;
+  z-index: 1;
+  width: 765px;
+  height: 608px;
+  right: 0;
+  bottom: 0;
+}
+
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background: #2f80ed;
+  position: absolute;
+  top:64px;
+  right: 0;
+
 }
 
 /* и элемента с модификатором вида ключ-значение */
