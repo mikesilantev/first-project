@@ -112,3 +112,52 @@ section {
   margin-right: 0;
   margin-top: 80px;
 }
+
+
+/* SECTION DESCRIPTION*/
+.description {
+  width: 80%;
+  margin: auto;
+}
+
+.two-columns {
+display: flex;
+justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 174px;
+}
+
+.two-columns__main-text {
+  width: 80%;
+}
+
+/*
+.two-columns {
+  display: flex;
+  width: 80%;
+  background-color: rgb(236, 95, 95);
+}
+
+.two-columns__brief {
+  width: 175px;
+  background-color: #fff;
+
+}
+
+.two-columns__title {
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  align-content:
+  min-width: 784px;
+  width: 80%;
+  background-color: #555;
+}
+*/
