@@ -15,7 +15,30 @@ div {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+ /* position: relative;*/
 }
+/*Logo*/
+.logo {
+  width: 183px;
+  height: 32px;
+  /*position: absolute;*/
+
+}
+.logo__header_place {
+  margin: 30px 0 0 64px;
+}
+/*Logo__END*/
+
+.header__title {
+  width: 730px;
+}
+.header__h1 {
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+}
+
+
 
 .header__link {
 
