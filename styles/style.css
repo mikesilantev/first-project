@@ -189,7 +189,7 @@ justify-content: space-between;
   width: 60%;
   text-align: center;
   line-height: 34px;
-  font-style: 24px;
+  font-size: 24px;
   font-weight: normal;
 }
 
@@ -202,6 +202,10 @@ justify-content: space-between;
   line-height: 1.15rem;
   font-size: 24px;
   font-weight: bold;
+}
+
+.table__heading_h3 {
+  margin: 0 0 20px;
 }
 
 .table__text {
