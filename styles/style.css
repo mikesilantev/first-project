@@ -32,7 +32,7 @@ section {
 .link_theme-dark {
   color: #f2f2f2;
 }
-
+/* Настройки */
 .header {
   height: 100vh;
   min-height: 600px;
@@ -289,7 +289,7 @@ right: 48px;
 .kaufman__triangle {
   position: absolute;
   top: 0;
-  rigth: -210px;
+  right: -210px;
   width: 877px;
   height: 877px;
 }
