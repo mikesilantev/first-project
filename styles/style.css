@@ -32,7 +32,17 @@ section {
 .link_theme-dark {
   color: #f2f2f2;
 }
+
+.link:hover {
+  opacity: .5;
+}
+
+.logo:hover {
+  opacity: .5;
+}
+
 /* Настройки */
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -62,9 +72,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.header__h1 {
   width: 730px;
   height: 64px;
   margin-left: 64px;
@@ -85,11 +92,6 @@ section {
   font-weight: normal;
 }
 
-.header__link {
-
-}
-
-
 .header__main-illustration {
   position: absolute;
   z-index: 1;
@@ -99,8 +101,6 @@ section {
   bottom: 0;
 }
 
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -110,8 +110,6 @@ section {
   right: 0;
 
 }
-
-
 
 /* SECTION DESCRIPTION*/
 .description {
@@ -142,6 +140,8 @@ justify-content: space-between;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .two-columns__paragraph:nth-child(2) {
@@ -152,25 +152,27 @@ justify-content: space-between;
   font-weight: bold;
 }
 
-/* Section DIGITS*/
+/* SECTION DIGITS*/
+
 .digits {
  display: flex;
  justify-content: center;
  padding: 100px 0;
 }
+
 .section__wrap{
   width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .table {
   width: 1100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .section-title {
@@ -185,18 +187,18 @@ justify-content: space-between;
   margin: 0;
 }
 
-
 .section-subtitle {
   width: 60%;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 20px 0 0;
 }
+
 .section-subtitle__h3 {
   margin: 0;
 }
-
 
 .table__cell {
   width: 250px;
@@ -219,11 +221,13 @@ justify-content: space-between;
   font-weight: normal;
 }
 
-.table__text-p {
+.table__text-source {
+  display: block;
   margin: 20px 0 0;
 }
 
-/*Section FEYNMAN*/
+/*SECTION FEYNMAN*/
+
 .feynman {
   display: flex;
   flex-direction: column;
@@ -236,16 +240,19 @@ justify-content: space-between;
   background-repeat: no-repeat;
   background-position: left bottom;
 }
+
 .feynman__title {
   line-height: 1.15;
   font-size: 120px;
   font-weight: normal;
   min-width: 648px;
 }
+
 .feynman__title_h2 {
   margin: 0;
   text-align: center;
 }
+
 .feynman__subtitle {
   margin: 70px 0 0;
   line-height: 51px;
@@ -262,19 +269,8 @@ top: 50%;
 right: 48px;
 }
 
+/*SECTION KAUFMAN*/
 
-
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  /*color: white;*/
-  margin-right: 0;
-  margin-top: 80px;
-  z-index: 2;
-}
-
-/*Section KAUFMAN*/
 .kaufman {
   background-color: #1f1f1f;
   color: #f2f2f2;
@@ -292,6 +288,14 @@ right: 48px;
   right: -210px;
   width: 877px;
   height: 877px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  /*color: white;*/
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 2;
 }
 
 .section-title-h2 {
@@ -367,11 +371,13 @@ position: relative;
   margin: 20px 0 16px;
 
 }
+
 .footer__links-ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
@@ -379,6 +385,7 @@ position: relative;
   background-repeat: no-repeat;
   margin: 0 10px 0 0;
 }
+
 .footer__social-icon-fb {
   background-image: url('../images/facebook_color_white.svg');
 }
